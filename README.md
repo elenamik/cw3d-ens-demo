@@ -1,6 +1,6 @@
 # cw3d-ens-demo
 This repo implements a little ENS resolver, using the [cw3d template](https://createweb3dapp.alchemy.com) maintained by Alchemy. The end result is a component like this:
-![clip](https://github.com/elenamik/cw3d-ens-demo/assets/44687983/72fa56ae-3268-4d06-82c2-e60812ed50e0)
+![gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTdzN2NsNjJ5NXYza3FyM2tjbG5mMDk0cnB3ZDA0eGxxbjRydzd4ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yOZ67ne2mxdmhOMUtH/giphy.gif)
 
 # How to add this component to your project
 ## Pre-requisites
