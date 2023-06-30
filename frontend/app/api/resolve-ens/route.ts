@@ -1,7 +1,6 @@
 import {Alchemy, Network} from "alchemy-sdk"
 
 export async function POST(req: Request, res: Response) {
-
     // extracting inputs from the request body
     const {chain, ens} = await req.json() as { chain: keyof typeof Network; ens: string };
 
@@ -9,7 +8,6 @@ export async function POST(req: Request, res: Response) {
         JSON.stringify({error: "Invalid inputs. Expected: chain, ens"}),
         {status: 500}
     )
-
     try {
         // instantiate Alchemy Client
         const settings = {
@@ -30,7 +28,6 @@ export async function POST(req: Request, res: Response) {
                 ens: ens
             })
         )
-
     } catch (e) {
         // Catching any errors and responding with status 500 Internal Server Error and a message
         console.warn(e);
@@ -40,5 +37,4 @@ export async function POST(req: Request, res: Response) {
                 {status: 500}
         )
     }
-
 }
