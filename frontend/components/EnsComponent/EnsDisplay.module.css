@@ -3,6 +3,10 @@
     gap: 2px;
     overflow-wrap: break-word;
     cursor:pointer;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .copyBtn {
